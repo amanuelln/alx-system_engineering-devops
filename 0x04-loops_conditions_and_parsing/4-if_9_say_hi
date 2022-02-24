@@ -4,6 +4,7 @@ for ((i=1; i < 11; i++ ))
 do
 	if [ $i -eq 9 ]
 	then
+		echo "Best School"
 		echo "hi"
 	else
 		echo "Best School"
