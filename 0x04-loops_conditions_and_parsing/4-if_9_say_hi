@@ -1,12 +1,14 @@
 #!/usr/bin/env bash
 #echos best school ten times but hi for 9th
-for ((i=1; i < 11; i++ ))
+number=1
+while [ $number -lt 11 ]
 do
-	if [ $i -eq 9 ]
+	if [ $number -eq 9 ]
 	then
 		echo "Best School"
 		echo "hi"
 	else
 		echo "Best School"
 	fi
+	number=$((number+1))
 done
