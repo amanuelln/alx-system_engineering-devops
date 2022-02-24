@@ -1,0 +1,20 @@
+#!/usr/bin/env bash
+#bash script that displays numbers from 1 to 20 
+for i in {1..20}
+do
+	if [ $i -eq 4 ]
+	then
+		echo "4"
+		echo "bad luck form China"
+	elif [ $i -eq 9 ]
+	then
+		echo "9"
+		echo "bad luck fom Japan"
+	elif [ $i -eq 17 ]
+	then
+		echo "17"
+		echo "bad luck from Italy"
+	else
+		echo $i
+	fi
+done
