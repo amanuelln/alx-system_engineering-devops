@@ -1,10 +1,11 @@
 #!/usr/bin/env bash
 #echos best school ten times but hi for 9th
-for ((i=1; i < 10; i++ ))
+for ((i=1; i < 11; i++ ))
 do
 	if [ $i -eq 9 ]
 	then
 		echo "hi"
+	else
+		echo "Best School"
 	fi
-	echo "Best School"
 done
