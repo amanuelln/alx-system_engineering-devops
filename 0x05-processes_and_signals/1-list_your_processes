@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+#Displays a list of the currently running processes
+
+ps -uxfa
